@@ -1,0 +1,11 @@
+.DS_Store
+.git
+.gitattributes
+.github
+.gitignore
+.npmignore
+build/
+src/
+temp/
+test/
+tmp/
