@@ -1,0 +1,31 @@
+{
+  "name": "@marcobarrios-fi/html5-elements",
+  "version": "1.0.1",
+  "description": "HTML 5.2 elements in JSON format as categorized by the W3C Working Draft.",
+  "main": "dist/html5-elements.min.json",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "init": "mkdir build && mkdir dist",
+    "build": "php src/html5-elements.php > build/html5-elements.min.json",
+    "dist": "cp build/html5-elements.min.json dist/html5-elements.min.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcobarrios-fi/html5-elements.git"
+  },
+  "keywords": [
+    "dataset",
+    "html", 
+    "html5", 
+    "javascript", 
+    "json"
+  ],
+  "author": "Marco Barrios",
+  "license": "MIT",
+  "homepage": "https://github.com/marcobarrios-fi/html5-elements#readme",
+  "devDependencies": {
+    "php": ""
+  }
+}
